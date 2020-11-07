@@ -1,0 +1,61 @@
+.productsPage {
+  display: flex;
+  height: 14.625rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.productsPageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.captionTitle {
+  font-size: 3rem;
+  letter-spacing: 0px;
+  font-family: freight-display-pro, serif;
+  text-transform: none;
+  color: #2b2e2b;
+  margin-bottom: 1.625rem;
+}
+
+.captionText {
+  font-size: 1rem;
+  letter-spacing: 0.03px;
+  text-transform: none;
+  color: #2b2e2b;
+  margin-bottom: 2.25rem;
+}
+
+.select {
+  width: 315px;
+  height: 56px;
+  padding-right: 2rem;
+  border: 1px solid #cdd1ce;
+  appearance: none;
+  background: transparent
+    url(https://cdn.shopify.com/s/files/1/0044/1237/5107/files/down.png?v=1583510959)
+    no-repeat;
+  background-size: 10px;
+  background-position: 95%;
+  background-color: transparent;
+  padding: 20px;
+  font-size: 13px;
+  letter-spacing: 0.03px;
+  font-family: FF Bau Medium, san-serif !important;
+  margin-bottom: 35px;
+  color: #4b5548;
+}
+
+.productsContainer {
+  padding: 5rem 1.5625rem 1.5625rem 1.5625rem;
+  background-color: #e2e6e3;
+  display: flex;
+  flex-wrap: wrap;
+  height: 101%;
+}

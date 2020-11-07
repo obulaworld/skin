@@ -1,0 +1,44 @@
+.navbar {
+  border-bottom: 1px solid #e8e9e6;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+
+.cart {
+  width: 25px;
+  height: 21.63px;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo {
+  cursor: pointer;
+  height: 2.625rem;
+  width: 10.375rem;
+  margin-right: 4rem;
+}
+
+.firstMenu,
+.secondMenu {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.firstMenuItem {
+  margin-right: 2.5rem;
+}
+
+.secondMenuItem {
+  margin-right: 1.375rem;
+}

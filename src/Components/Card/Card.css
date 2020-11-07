@@ -1,0 +1,55 @@
+.card {
+  text-align: center;
+  padding: 3.125rem 1.875;
+  min-height: 3.125rem;
+  flex: 0 0 33.33%;
+  margin-bottom: 4rem;
+}
+
+.cardImageContainer {
+  min-height: 13.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image {
+  width: 20rem;
+  font-size: 20px;
+  font-family: FF Bau Medium, san-serif;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.cardTitle {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: FF Bau Medium, san-serif;
+  color: #2b2e2b;
+  margin-bottom: 6px;
+}
+
+.cardText {
+  font-size: 16px;
+  color: #0b0c0d;
+}
+
+.actionButton {
+  display: flex;
+  justify-content: center;
+}
+
+.addButton {
+  background-color: #4b5548;
+  color: #fcfcf9;
+  padding: 14px 11px;
+  border: 0.5px solid #4b5548;
+  width: calc(50% - 5px);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  font-family: FF Bau Medium, san-serif;
+}

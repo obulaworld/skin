@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+@font-face{
+  src: url('./fonts/bau-regular.ttf');
+  font-family: Bau;
+}
+
